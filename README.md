@@ -1,6 +1,12 @@
-# TSETMC API — Tehran Stock Exchange Data
+[![GitHub](https://img.shields.io/badge/agent-hermes_%7C_claude_%7C_cursor_%7C_opencode_%7C_copilot_%7C_windsurf-blue)](https://github.com/amirziveh/tsetmc-skill)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/amirziveh/tsetmc-skill)](https://github.com/amirziveh/tsetmc-skill/commits)
 
-This repository provides a complete, reverse-engineered API reference for the Tehran Stock Exchange (TSETMC / tsetmc.com). It covers **three API surfaces** with ~50+ endpoints for instrument data, price history, indices, client types, order books, shareholders, messages, and more.
+# TSETMC Skill — Tehran Stock Exchange Data for AI Agents
+
+A universal, reverse-engineered API reference for the Tehran Stock Exchange (TSETMC / tsetmc.com). **Works natively with every major AI coding agent** — no plugins, no SDKs, just markdown.
+
+Covers **three API surfaces** with ~50+ endpoints for instrument data, price history, indices, client types, order books, shareholders, messages, and more.
 
 ## What's inside
 
@@ -8,13 +14,13 @@ This repository provides a complete, reverse-engineered API reference for the Te
 |-----------|----------|-----------|
 | `references/` | Full API endpoint catalog, data schemas, field dictionary, flow/code tables | ✅ Yes — plain markdown |
 | `templates/` | Python client (stdlib-only), usage guides for pytse-client & tsetmc packages | ✅ Yes — plain code |
+| `SKILL.md` | Hermes Agent skill (installable via `hermes skills install`) | ✅ Hermes |
 | `CLAUDE.md` | Claude Code project hook | ✅ Claude Code |
 | `.cursorrules` | Cursor AI project hook | ✅ Cursor |
 | `.opencode.md` | OpenCode project hook | ✅ OpenCode |
 | `.windsurfrules` | Windsurf project hook | ✅ Windsurf |
 | `.github/copilot-instructions.md` | GitHub Copilot project hook | ✅ Copilot |
-| `hermes-skill/` | Hermes Agent skill (installable) | ✅ Hermes |
-| `generate-configs.py` | Auto-generates all agent hooks | ✅ Developer tool |
+| `generate-configs.py` | Auto-generates all agent hooks from references/ | ✅ Developer tool |
 
 ## Quick start
 
